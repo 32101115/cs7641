@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-df = pandas.read_csv("/data/ccf_PCA_KM.csv")
+df = pandas.read_csv("ccf_PCA_KM.csv")
 
 X = df.drop(columns = ['class'])
 Y = df['class']
